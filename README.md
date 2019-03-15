@@ -6,7 +6,7 @@ Run command in specific network Linux namespace ([netns](https://lwn.net/Article
 ```
 # setcap cap_sys_admin+ep ./nsexec
 ```
-It is possible to use custom configuration files (as using ```ip netns exec```) for specific network namespace stored in ```/etc/netns/NAME/```. For example, you can use custom resolv.conf for *ns1* network namespace placing it as ```/etc/netns/ns1/resolve.conf```.
+It is possible to use custom configuration files (as using ```ip netns exec```) for specific network namespace stored in ```/etc/netns/NAME/```. For example, you can use custom resolv.conf for *ns1* network namespace placing it as ```/etc/netns/ns1/resolv.conf```.
 
 ## Caveats
 
