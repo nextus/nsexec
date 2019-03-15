@@ -17,7 +17,7 @@ const (
 	// linux: arch/x86/include/asm/unistd_64.h
 	SYS_SETNS = 308
 
-	// iproute2: ip/ipnetns.c
+    // iproute2: include/namespace.h
 	NETNS_RUN_DIR = "/var/run/netns"
 	NETNS_ETC_DIR = "/etc/netns"
 )
